@@ -31,5 +31,11 @@
 ### 1. Запуск Java-сервера
 
 ```bash
+cd server
 javac SimpleHttpServer.java
 java SimpleHttpServer
+
+cd ..
+
+cd client
+go run client.go 
